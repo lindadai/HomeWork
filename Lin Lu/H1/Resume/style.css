@@ -1,0 +1,81 @@
+body {
+  width: 800px;
+  margin: 0 auto;
+  font-family: 'Roboto', sans-serif;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  font-size: 16px;
+  text-align: center;
+}
+.contact {
+  text-align: center;
+}
+.phone {
+  display: inline-block;
+  margin-right: 30px;
+}
+.email {
+  display: inline-block;
+}
+.skills {
+  font-size: 20px;
+  color: rgb(163, 18, 18);
+}
+.spleft {
+  line-height: 200%;
+  word-spacing: 30px;
+  float: left;
+}
+.spright {
+  line-height: 200%;
+  word-spacing: 30px;
+  float: right;
+}
+.experience {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  margin-top: 20px;
+  color: rgb(163, 18, 18);
+}
+.ep {
+  float: left;
+  width: 100%;
+}
+.projects {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(163, 18, 18);
+}
+.pp {
+  float: left;
+  width: 100%;
+}
+.education {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(163, 18, 18);
+}
+.sname {
+  float: left;
+}
+.edustuff {
+  float: left;
+  clear: left;
+  color: #6C6C6C;
+  margin-top: 0;
+  font-size: 13px;
+  font-family: 'Merriweather', serif;
+}
+img {
+  width: 110px;
+  height: 150px;
+  float: right;
+}

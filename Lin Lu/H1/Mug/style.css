@@ -1,0 +1,54 @@
+body {
+  background-color: white;
+  width: 940px;
+  margin: 0 auto;
+  font-family: "Verdana", Times, serif;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: normal;
+  color: #666666;
+}
+div {
+  background-color: white;
+}
+ul, p {
+  color: #666666;
+}
+h2 {
+  color: #f07c17;
+}
+img {
+  width: 372px;
+  height: 374px;
+}
+p {
+  line-height: 190%;
+}
+.border {
+  width: 370px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b4b0b4;
+  padding-bottom: 10px;
+  margin-top: 20px;
+}
+.right, .left {
+  float: left;
+  width: 400px;
+}
+.right {
+  width: 540px;
+}
+.main {
+  margin-left: 20px;
+}
+ul {
+  margin-left: 10px;
+  line-height: 190%;
+}
+.goodWay {
+  margin-top: 0;
+  margin-bottom: 40px;
+}

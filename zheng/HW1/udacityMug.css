@@ -1,0 +1,47 @@
+body {
+	/*background: url(images/page-mock.png);
+	background-size: 1024px 885px;
+	background-repeat: no-repeat;*/
+	font-family: Verdana;
+	color: #666666;
+	width: 885px;
+	height: 1024px;
+}
+.title {
+	text-align: center;
+	font-size: 48px;
+	margin: 42px 40px 0px 162px;
+}
+img {
+	width: 374px;
+	height: 374px;
+}
+.image {
+	float: left;
+	margin: 28px 30px 11px 34px;
+}
+.navi {
+	float: left;
+	clear: left;
+	margin: 16px 30px 300px 34px;
+	padding: 8px 102px 40px 30px;
+	border: 1px solid #666666;
+}
+.text {
+	margin: 26px 0px 0px 0px;
+	width: 970px; /*为什么这个宽度大于page的宽度？宽度小于400px时整段文字跑到最下面去了*/
+	/*section和div的区别？*/
+}
+.headColor {
+	color: #f07c17;
+}
+.lineHeight {
+	line-height: 200%;
+	margin: 29px 0px 0px 0px;
+}
+.paragraph2, .paragraph3 {
+	margin: 10px 0px 10px 0px;
+}
+.text .paragraph3 {
+	width: 974px;
+}

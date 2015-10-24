@@ -1,0 +1,103 @@
+body {
+  font-family: 'Verdana';
+  color:  #666666;
+  width:  950px;
+  height: 885px; 
+}
+
+.name{  
+      color: #666666;  
+      font-size: 25px;  
+      //margin-right: 40px;  
+      margin-top: 20px;  
+      margin-bottom: 20px;  
+      text-align: center;  
+}  
+
+.phone, .email{
+       font-size: 15px;
+       text-align: center;
+}
+
+.sum{
+       font-size: 20px;
+       text-align: center;
+       font-family: bold;
+       margin-bottom: 20px;
+}
+
+.sumtext {  
+        line-height: 20px;  
+        color: #666666;  
+        font-size: 15px;  
+
+}
+.sumlist,.tasklist1, .tasklist2,.tasklist3{  
+        line-height: 15px;  
+        color: #666666;  
+        font-size: 15px;  
+
+}
+ul {  
+   line-height: 150%;  
+   color: #666666;  
+}
+
+.tec,.addinfo1{
+       font-size: 20px;
+       text-align: center;
+       font-family: bold;
+       margin-bottom: 20px;
+}
+
+.tec1,.tec2,.tec3,.tec4,.tec5,.tec6,.tec7{
+       font-size: 15px;
+       text-align: right;
+       font-family: 'Verdana';
+       //font-family: bold;
+       width: 20%;
+       float: left;
+       margin-right: 20px;
+}
+
+.tec11, .tec21,.tec31,.tec41,.tec51,.tec61,.tec71{
+       font-size: 15px;
+       font-family: 'Verdana';
+       text-align: left;
+       width: 80%;
+}
+.exp{
+       font-size: 20px;
+       text-align: center;
+       font-family: bold;
+       margin-bottom: 20px;
+       margin-top: 20px; 
+}
+
+.job1,.job2,.job3{
+       font-size: 15px;
+       text-align: left;
+       font-family: 'Verdana';
+       //font-family: bold;
+       width: 40%;
+       float: left;
+       margin-right: 20px;
+}
+.date1,.date2,.date3{
+       font-size: 15px;
+       font-family: 'Verdana';
+       text-align: right;
+       //width: 70%;
+}
+.title1,.title2,.title3{
+       font-size: 14px;
+       font-family: 'Verdana';
+       text-align: left;
+       //width: 70%;
+}
+.addinfo2,.addinfo3,.addinfo4,.addinfo5,.addinfo6,.addinfo7{
+       font-size: 20px;
+       text-align: center;
+       font-family: bold;
+       margin-bottom: 10px;
+}

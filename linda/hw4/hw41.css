@@ -1,0 +1,43 @@
+/* This .css file is directly copy and paste from http://www.hanwei.us/legoclicker/*/
+
+body {
+	margin: 50px auto;
+	width: 1000px;
+	font-family: Arial, sans-serif;
+}
+
+img {
+	width: 600px;
+	margin: auto;
+}
+
+ul {
+	float: left;
+	list-style: none;
+	padding: 50px 0;
+}
+
+li {
+	padding: 0.5em;
+	font-size: 20px;
+	font-weight: bold;
+	border: 2px solid;
+	margin-top: 6px;
+}
+
+li:hover {
+	color:red;
+	cursor:pointer;
+	color: rgba(0, 0, 0, 0.40);
+}
+
+#lego {
+	float: left;
+	text-align: center;
+	width: 80%;
+	margin-top: 50px;
+}
+
+h1 {
+	text-align: center;
+}

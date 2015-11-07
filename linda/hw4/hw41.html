@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html leng="en" ng-app="legoApp">
+
+<head>
+    <meta charset="utf-8">
+    <title>Lego Clicker</title>
+    <link href="hw41.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js"></script>
+    <script src="hw41.js"></script>    
+</head>
+ 
+<body ng-controller="LegosCtrl">
+  	 <h1>Lego Clicker</h1>
+    <ul>
+      <li ng-repeat="obj in objs" ng-click="changeLego(obj)">
+        <span>{{obj.name}}</span>
+      </li>
+    </ul>
+    <div class="lego">
+      <h2 ng-bind="curLego.name"></h2>
+          <p>
+            Counter: <span ng-bind="curLego.clickCount"></span>
+          </p>
+          <img id="img" ng-src="{{curLego.imgSrc}}" alt="lego image" ng-click="increaseCounter()"/>
+      </div>
+
+  </body>
+</html>
